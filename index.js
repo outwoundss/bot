@@ -22,13 +22,13 @@ const config = {
   mc: {
     host: "play.pika-network.net",
     port: 25565,
-    username: "ItIsLux",
+    username: "verbalabuse",
     version: "1.18.1",
     loginPassword: process.env.MC_LOGIN_PASSWORD,
   },
   discord: {
     token: process.env.DISCORD_TOKEN,
-    channelId: "1430925481540063405",
+    channelId: "1384294729251950685",
   },
 };
 
@@ -181,6 +181,7 @@ discord.on("messageCreate", (msg) => {
 // ================= GLOBAL ERRORS =================
 process.on("uncaughtException", console.error);
 process.on("unhandledRejection", console.error);
+
 
 
 
